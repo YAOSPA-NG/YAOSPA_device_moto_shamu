@@ -399,4 +399,8 @@
          * The device must be provisioned with HDCP keys (for protected content).
     -->
     <bool name="config_enableWifiDisplay">true</bool>
+
+    <!-- Battery fast charge (in microwatt) -->
+    <integer name="config_chargingFastThreshold">6500000</integer>
+
 </resources>
